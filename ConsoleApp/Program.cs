@@ -14,7 +14,6 @@ namespace ConsoleApp
         {
             CarCollection cars = new CarCollection();
 
-            Console.WriteLine("Первый вызов перечислителя:");
             // Используем перечислитель
             IEnumerator car = cars.GetEnumerator();
             while (car.MoveNext())
